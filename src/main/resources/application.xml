@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+    <bean id="product" class="com.example.demo.model.Product">
+        <property name="name" value="蔡徐坤"/>
+        <property name="id" value="123"/>
+    </bean>
+    <bean  class="com.example.demo.config.MyBeanFactoryProcessor">
+
+    </bean>
+
+
+</beans>

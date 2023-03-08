@@ -1,0 +1,25 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/jjc?useUnicode=true&characterEncoding=utf8
+#    username: root
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+server:
+  port: 8080
+#spring:
+#  aop:
+#    auto: true
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+#    virtual-host: / #虚拟主机地址
+#    listener:
+#      simple:
+#        prefetch: 1
